@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 #from ultralytics import NAS
 from ultralytics import YOLO
 
-model = YOLO("/home/skrudfhr02/hdd/rokkie/python_code/yolo_project/Model/yolov8x.pt")
+model = YOLO("/home/skrudfhr02/hdd/rokkie/python_code/yolo_project/Model/yolo_nas_l.pt")
 
 # Dataset folder path
 image_folder = "/home/skrudfhr02/hdd/rokkie/python_code/yolo_project/Dataset/M1003"

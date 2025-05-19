@@ -1,0 +1,11 @@
+# venv 가상환경 폴더 제외
+venv/
+
+# Model 폴더 제외
+Model/
+
+# Result 폴더 제외
+Result/
+
+
+

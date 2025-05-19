@@ -8,8 +8,6 @@
 - 모델: YOLO-NAS (`yolo_nas_l.pt`)
 - 데이터셋: UAV-Human
 
-## 데이터셋
-
 ## 경로 설명
 
 - `image_folder`는 **객체 탐지에 사용할 이미지 데이터셋 폴더** 경로입니다.  
@@ -25,6 +23,8 @@
   ```
 
 > 이 두 경로는 상대경로 기준으로 설정되어 있으며, 실행 전 해당 폴더들이 존재하는지 확인해야 합니다.
+
+## 데이터셋
 
 ### 원본 링크
 - GitHub: https://github.com/SUTDCV/UAV-Human

@@ -6,14 +6,14 @@ import matplotlib.pyplot as plt
 #from ultralytics import NAS
 from ultralytics import YOLO
 
-model = YOLO("/home/skrudfhr02/hdd/rokkie/python_code/yolo_project/Model/yolo_nas_l.pt")
+model = YOLO("Model/yolo_nas_l.pt")
 
 # Dataset folder path
-image_folder = "/home/skrudfhr02/hdd/rokkie/python_code/yolo_project/Dataset/M1003"
+image_folder = "Dataset/M1003"
 image_files = sorted([f for f in os.listdir(image_folder) if f.endswith(".jpg") and f.startswith("img")])
 
 # Result video path
-result_path = "/home/skrudfhr02/hdd/rokkie/python_code/yolo_project/Result/New_M1003.mp4"
+result_path = "Result/New_M1003.mp4"
 
 # Read the first image to get frame size
 first_image = cv2.imread(os.path.join(image_folder, image_files[0]))

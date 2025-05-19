@@ -10,6 +10,22 @@
 
 ## 데이터셋
 
+## 경로 설명
+
+- `image_folder`는 **객체 탐지에 사용할 이미지 데이터셋 폴더** 경로입니다.  
+  예:  
+  ```python
+  image_folder = "Dataset/M1003"
+  ```
+
+- `result_path`는 **탐지 결과 영상이 저장될 위치**를 지정합니다.  
+  예:  
+  ```python
+  result_path = "Result/New_M1003.mp4"
+  ```
+
+> 이 두 경로는 상대경로 기준으로 설정되어 있으며, 실행 전 해당 폴더들이 존재하는지 확인해야 합니다.
+
 ### 원본 링크
 - GitHub: https://github.com/SUTDCV/UAV-Human
 
